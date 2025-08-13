@@ -1,0 +1,21 @@
+CREATE DATABASE IF NOT EXISTS TESTDB;
+USE TESTDB;
+
+
+CREATE TABLE `Account` (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    balance DECIMAL(18,2) NOT NULL DEFAULT 0.00,
+    currency CHAR(3) NOT NULL DEFAULT 'MYR'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `Transaction` (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    source_account_id BIGINT NOT NULL,
+    destination_account_id BIGINT NOT NULL,
+    amount DECIMAL(18,2) NOT NULL,
+    timestamp DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT fk_transaction_from FOREIGN KEY (source_account_id) REFERENCES `Account`(id),
+    CONSTRAINT fk_transaction_to FOREIGN KEY (destination_account_id) REFERENCES `Account`(id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

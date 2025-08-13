@@ -1,0 +1,191 @@
+{
+	"info": {
+		"_postman_id": "aa7c6b62-f519-4082-a6d6-e8c267364e78",
+		"name": "Maybank Assessment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32323010"
+	},
+	"item": [
+		{
+			"name": "Create Account",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Min Yue\",\r\n  \"email\": \"minyue@example.com\",\r\n  \"balance\": 1000.50\r\n\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/accounts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Find Account By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/accounts/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"accounts",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Account",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/accounts?pageNumber&pageSize=",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"accounts"
+					],
+					"query": [
+						{
+							"key": "pageNumber",
+							"value": null
+						},
+						{
+							"key": "pageSize",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Account Details",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Min Yue\",\r\n  \"balance\": 1000.50\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/accounts/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"accounts",
+						"6"
+					]
+				},
+				"description": "### Update Account Details\n\nThis endpoint allows you to update the details of an existing account identified by its unique ID. In this case, the account ID is `6`. The request modifies the account's information, specifically the account name and balance.\n\n#### Request\n\n- **Method**: PUT\n    \n- **URL**: `http://localhost:8080/api/accounts/6`\n    \n- **Content-Type**: application/json\n    \n\n##### Request Body\n\nThe request body must be in JSON format and should include the following parameters:\n\n- `name` (string): The new name for the account.\n    \n- `balance` (number): The updated balance for the account.\n    \n\n**Example Request Body**:\n\n``` json\n{\n  \"name\": \"Min Yue\",\n  \"balance\": 1000.5\n}\n\n ```\n\n#### Response\n\nUpon a successful update, the server responds with:\n\n- **Status Code**: 200 OK\n    \n- **Content-Type**: text/plain\n    \n- **Response Body**: A confirmation message indicating that the account details have been updated.\n    \n\n**Example Response**:\n\n```\nAccount Details Updated\n\n ```\n\nThis response confirms that the update operation was successful and that the account information has been modified as requested."
+			},
+			"response": []
+		},
+		{
+			"name": "Transfer Money",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"sourceAccountId\": 2,\r\n  \"destinationAccountId\": 1,\r\n  \"amount\": 1000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/transaction/transfer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"transaction",
+						"transfer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Hourly Temperature",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"latitude\": 52.52,\r\n  \"longitude\": 13.41\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/weather/temperature",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"weather",
+						"temperature"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
