@@ -1,15 +1,17 @@
-<u>API</u>
+<ins>API</ins>
 
-Create Account 
+- Create Account 
 
-Find Account By Id 
+- Find Account By Id 
 
-Get All Account 
+- Get All Accounts 
 
-Update Account Details
+- Update Account Details
 
-Transfer Money 
+- Transfer Money 
 
-Get Hourly Temperature
+- Get Hourly Temperature
 
-<b>Postman Collection in src/main/java/resources</b>
+
+
+**Postman Collection in src/main/java/resources**
