@@ -40,14 +40,13 @@ public class AccountService {
     }
 
     public Page<Account> findAccounts (Integer pageNumber , Integer pageSize){
-        logger.info("------------Start AccountService -> findAccounts()------------");
-        logger.info("Page Number: " + pageNumber + " PageSize: " + pageSize);
+
 
         Pageable paging = PageRequest.of(pageNumber, pageSize);
         Page <Account> products = accountRepository.findAll(paging);
 
 
-        logger.info("------------End AccountService -> findAccounts()------------");
+
         return products;
     }
 }

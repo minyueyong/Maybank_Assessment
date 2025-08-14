@@ -1,24 +1,24 @@
-2025-08-13T19:05:29.954+08:00  INFO 16612 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : Starting SpringBootApplication using Java 17.0.9 with PID 16612 (C:\Users\doubl\OneDrive\maybank interview assessment\target\classes started by doubl in C:\Users\doubl\OneDrive\maybank interview assessment)
-2025-08-13T19:05:29.983+08:00  INFO 16612 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : No active profile set, falling back to 1 default profile: "default"
-2025-08-13T19:05:30.200+08:00  INFO 16612 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-08-13T19:05:30.200+08:00  INFO 16612 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-08-13T19:05:31.431+08:00  INFO 16612 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-08-13T19:05:31.501+08:00  INFO 16612 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
-2025-08-13T19:05:33.474+08:00  INFO 16612 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-08-13T19:05:33.514+08:00  INFO 16612 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-08-13T19:05:33.521+08:00  INFO 16612 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-13T19:05:33.591+08:00  INFO 16612 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-08-13T19:05:33.597+08:00  INFO 16612 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3397 ms
-2025-08-13T19:05:34.044+08:00  INFO 16612 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-08-13T19:05:34.242+08:00  INFO 16612 --- [demo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
-2025-08-13T19:05:34.362+08:00  INFO 16612 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-08-13T19:05:35.212+08:00  INFO 16612 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-08-13T19:05:35.319+08:00  INFO 16612 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-08-13T19:05:36.097+08:00  INFO 16612 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57988998
-2025-08-13T19:05:36.097+08:00  INFO 16612 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-08-13T19:05:36.246+08:00  WARN 16612 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-08-13T19:05:36.246+08:00  WARN 16612 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2025-08-13T19:05:36.289+08:00  INFO 16612 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-08-14T20:37:12.258+08:00  INFO 21816 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : Starting SpringBootApplication using Java 17.0.9 with PID 21816 (C:\Users\doubl\OneDrive\maybank interview assessment\target\classes started by doubl in C:\Users\doubl\OneDrive\maybank interview assessment)
+2025-08-14T20:37:12.292+08:00  INFO 21816 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-14T20:37:12.616+08:00  INFO 21816 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-14T20:37:12.618+08:00  INFO 21816 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-14T20:37:14.943+08:00  INFO 21816 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-14T20:37:15.103+08:00  INFO 21816 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 129 ms. Found 2 JPA repository interfaces.
+2025-08-14T20:37:18.207+08:00  INFO 21816 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-14T20:37:18.282+08:00  INFO 21816 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-14T20:37:18.282+08:00  INFO 21816 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-14T20:37:18.476+08:00  INFO 21816 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-14T20:37:18.478+08:00  INFO 21816 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5856 ms
+2025-08-14T20:37:19.407+08:00  INFO 21816 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-14T20:37:19.707+08:00  INFO 21816 --- [demo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-14T20:37:19.895+08:00  INFO 21816 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-14T20:37:21.147+08:00  INFO 21816 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-14T20:37:21.246+08:00  INFO 21816 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-14T20:37:22.170+08:00  INFO 21816 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@138041c0
+2025-08-14T20:37:22.177+08:00  INFO 21816 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-14T20:37:22.334+08:00  WARN 21816 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-14T20:37:22.336+08:00  WARN 21816 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-08-14T20:37:22.383+08:00  INFO 21816 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0
@@ -26,144 +26,56 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-08-13T19:05:37.700+08:00  INFO 16612 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-08-13T19:05:38.132+08:00  INFO 16612 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-08-13T19:05:38.785+08:00  WARN 16612 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-08-13T19:05:39.890+08:00  INFO 16612 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-08-13T19:05:39.979+08:00  INFO 16612 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-08-13T19:05:40.003+08:00  INFO 16612 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : Started SpringBootApplication in 11.987 seconds (process running for 13.507)
-2025-08-13T19:06:23.767+08:00  INFO 16612 --- [demo] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-13T19:06:23.767+08:00  INFO 16612 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-08-13T19:06:23.776+08:00  INFO 16612 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
-2025-08-13T19:06:26.202+08:00  INFO 16612 --- [demo] [http-nio-8080-exec-2] c.maybank.demo.service.WeatherService    : {"latitude":52.52,"longitude":13.419998,"generationtime_ms":0.05054473876953125,"utc_offset_seconds":0,"timezone":"GMT","timezone_abbreviation":"GMT","elevation":38.0,"hourly_units":{"time":"iso8601","temperature_2m":"°C"},"hourly":{"time":["2025-08-13T00:00","2025-08-13T01:00","2025-08-13T02:00","2025-08-13T03:00","2025-08-13T04:00","2025-08-13T05:00","2025-08-13T06:00","2025-08-13T07:00","2025-08-13T08:00","2025-08-13T09:00","2025-08-13T10:00","2025-08-13T11:00","2025-08-13T12:00","2025-08-13T13:00","2025-08-13T14:00","2025-08-13T15:00","2025-08-13T16:00","2025-08-13T17:00","2025-08-13T18:00","2025-08-13T19:00","2025-08-13T20:00","2025-08-13T21:00","2025-08-13T22:00","2025-08-13T23:00","2025-08-14T00:00","2025-08-14T01:00","2025-08-14T02:00","2025-08-14T03:00","2025-08-14T04:00","2025-08-14T05:00","2025-08-14T06:00","2025-08-14T07:00","2025-08-14T08:00","2025-08-14T09:00","2025-08-14T10:00","2025-08-14T11:00","2025-08-14T12:00","2025-08-14T13:00","2025-08-14T14:00","2025-08-14T15:00","2025-08-14T16:00","2025-08-14T17:00","2025-08-14T18:00","2025-08-14T19:00","2025-08-14T20:00","2025-08-14T21:00","2025-08-14T22:00","2025-08-14T23:00","2025-08-15T00:00","2025-08-15T01:00","2025-08-15T02:00","2025-08-15T03:00","2025-08-15T04:00","2025-08-15T05:00","2025-08-15T06:00","2025-08-15T07:00","2025-08-15T08:00","2025-08-15T09:00","2025-08-15T10:00","2025-08-15T11:00","2025-08-15T12:00","2025-08-15T13:00","2025-08-15T14:00","2025-08-15T15:00","2025-08-15T16:00","2025-08-15T17:00","2025-08-15T18:00","2025-08-15T19:00","2025-08-15T20:00","2025-08-15T21:00","2025-08-15T22:00","2025-08-15T23:00","2025-08-16T00:00","2025-08-16T01:00","2025-08-16T02:00","2025-08-16T03:00","2025-08-16T04:00","2025-08-16T05:00","2025-08-16T06:00","2025-08-16T07:00","2025-08-16T08:00","2025-08-16T09:00","2025-08-16T10:00","2025-08-16T11:00","2025-08-16T12:00","2025-08-16T13:00","2025-08-16T14:00","2025-08-16T15:00","2025-08-16T16:00","2025-08-16T17:00","2025-08-16T18:00","2025-08-16T19:00","2025-08-16T20:00","2025-08-16T21:00","2025-08-16T22:00","2025-08-16T23:00","2025-08-17T00:00","2025-08-17T01:00","2025-08-17T02:00","2025-08-17T03:00","2025-08-17T04:00","2025-08-17T05:00","2025-08-17T06:00","2025-08-17T07:00","2025-08-17T08:00","2025-08-17T09:00","2025-08-17T10:00","2025-08-17T11:00","2025-08-17T12:00","2025-08-17T13:00","2025-08-17T14:00","2025-08-17T15:00","2025-08-17T16:00","2025-08-17T17:00","2025-08-17T18:00","2025-08-17T19:00","2025-08-17T20:00","2025-08-17T21:00","2025-08-17T22:00","2025-08-17T23:00","2025-08-18T00:00","2025-08-18T01:00","2025-08-18T02:00","2025-08-18T03:00","2025-08-18T04:00","2025-08-18T05:00","2025-08-18T06:00","2025-08-18T07:00","2025-08-18T08:00","2025-08-18T09:00","2025-08-18T10:00","2025-08-18T11:00","2025-08-18T12:00","2025-08-18T13:00","2025-08-18T14:00","2025-08-18T15:00","2025-08-18T16:00","2025-08-18T17:00","2025-08-18T18:00","2025-08-18T19:00","2025-08-18T20:00","2025-08-18T21:00","2025-08-18T22:00","2025-08-18T23:00","2025-08-19T00:00","2025-08-19T01:00","2025-08-19T02:00","2025-08-19T03:00","2025-08-19T04:00","2025-08-19T05:00","2025-08-19T06:00","2025-08-19T07:00","2025-08-19T08:00","2025-08-19T09:00","2025-08-19T10:00","2025-08-19T11:00","2025-08-19T12:00","2025-08-19T13:00","2025-08-19T14:00","2025-08-19T15:00","2025-08-19T16:00","2025-08-19T17:00","2025-08-19T18:00","2025-08-19T19:00","2025-08-19T20:00","2025-08-19T21:00","2025-08-19T22:00","2025-08-19T23:00"],"temperature_2m":[20.4,19.7,19.2,18.6,18.2,18.1,18.7,19.9,21.3,23.7,26.2,28.0,30.1,31.6,32.0,31.9,31.4,30.8,29.4,27.5,25.7,24.3,23.2,22.3,21.6,21.1,20.5,20.0,19.5,19.6,20.5,22.4,24.4,26.6,28.7,30.4,31.6,32.6,33.0,33.4,33.4,32.6,31.7,30.2,28.9,27.6,26.6,26.0,25.4,24.8,23.9,23.0,22.5,22.4,23.6,25.7,27.2,28.8,32.5,33.6,33.7,34.0,33.6,32.9,32.2,30.9,28.6,26.2,24.6,23.6,22.5,21.1,19.9,18.7,17.7,17.3,17.4,17.3,17.7,18.1,19.0,20.0,20.9,22.1,23.2,23.6,23.8,23.6,23.2,22.6,21.8,20.8,19.6,18.4,17.2,16.0,14.9,13.9,13.1,12.7,12.8,13.3,14.1,15.5,17.3,18.8,19.9,20.7,21.3,21.7,22.0,22.1,22.1,21.8,21.2,19.9,18.3,17.0,16.2,15.6,15.1,14.4,13.7,13.3,13.6,14.3,14.8,15.6,18.2,20.4,22.1,23.4,24.3,24.8,25.0,24.9,24.5,23.9,23.0,21.7,20.3,19.0,18.1,17.4,16.8,16.1,15.5,15.2,15.2,15.5,16.4,18.3,20.8,22.9,24.2,25.2,25.9,26.4,26.6,26.5,26.1,25.3,24.3,22.9,21.1,19.7,18.9,18.5]}}
-2025-08-13T19:06:26.333+08:00  INFO 16612 --- [demo] [http-nio-8080-exec-2] com.maybank.demo.filter.LoggingFilter    : Incoming Request: GET /api/weather/temperature Body: {
-  "latitude": 52.52,
-  "longitude": 13.41
+2025-08-14T20:37:24.769+08:00  INFO 21816 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-14T20:37:24.939+08:00  INFO 21816 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14T20:37:26.194+08:00  WARN 21816 --- [demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loggingAspect' defined in class path resource [com/maybank/demo/configuration/ApplicationConfiguration.class]: Failed to instantiate [com.maybank.demo.aspect.LoggingMethodAspect]: Factory method 'loggingAspect' threw exception with message: Error creating bean with name 'loggingAspect': Requested bean is currently in creation: Is there an unresolvable circular reference or an asynchronous initialization dependency?
+2025-08-14T20:37:26.194+08:00  INFO 21816 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14T20:37:26.210+08:00  INFO 21816 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-14T20:37:26.237+08:00  INFO 21816 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-14T20:37:26.245+08:00  INFO 21816 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-08-14T20:37:26.292+08:00  INFO 21816 --- [demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
 
-}
-2025-08-13T19:06:26.333+08:00  INFO 16612 --- [demo] [http-nio-8080-exec-2] com.maybank.demo.filter.LoggingFilter    : Outgoing Response: Status: 200 Body: {"latitude":52.52,"longitude":13.41}
-2025-08-13T19:14:54.320+08:00  INFO 16612 --- [demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-13T19:14:54.522+08:00  INFO 16612 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-08-13T19:14:54.522+08:00  INFO 16612 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-08-13T19:14:54.544+08:00  INFO 16612 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-08-13T19:14:54.570+08:00  INFO 16612 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-08-13T19:15:01.682+08:00  INFO 4004 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : Starting SpringBootApplication using Java 17.0.9 with PID 4004 (C:\Users\doubl\OneDrive\maybank interview assessment\target\classes started by doubl in C:\Users\doubl\OneDrive\maybank interview assessment)
-2025-08-13T19:15:01.692+08:00  INFO 4004 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : No active profile set, falling back to 1 default profile: "default"
-2025-08-13T19:15:01.879+08:00  INFO 4004 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-08-13T19:15:01.891+08:00  INFO 4004 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-08-13T19:15:03.504+08:00  INFO 4004 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-08-13T19:15:03.596+08:00  INFO 4004 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 2 JPA repository interfaces.
-2025-08-13T19:15:05.263+08:00  INFO 4004 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-08-13T19:15:05.288+08:00  INFO 4004 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-08-13T19:15:05.288+08:00  INFO 4004 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-13T19:15:05.339+08:00  INFO 4004 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-08-13T19:15:05.342+08:00  INFO 4004 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3448 ms
-2025-08-13T19:15:05.751+08:00  INFO 4004 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-08-13T19:15:05.985+08:00  INFO 4004 --- [demo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
-2025-08-13T19:15:06.098+08:00  INFO 4004 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-08-13T19:15:07.093+08:00  INFO 4004 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-08-13T19:15:07.233+08:00  INFO 4004 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-08-13T19:15:07.947+08:00  INFO 4004 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f51bc8f
-2025-08-13T19:15:07.947+08:00  INFO 4004 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-08-13T19:15:08.071+08:00  WARN 4004 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-08-13T19:15:08.071+08:00  WARN 4004 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2025-08-13T19:15:08.143+08:00  INFO 4004 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-08-13T19:15:09.719+08:00  INFO 4004 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-08-13T19:15:09.847+08:00  INFO 4004 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-08-13T19:15:10.689+08:00  WARN 4004 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-08-13T19:15:11.397+08:00  INFO 4004 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-08-13T19:15:11.460+08:00  INFO 4004 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-08-13T19:15:11.492+08:00  INFO 4004 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : Started SpringBootApplication in 11.248 seconds (process running for 12.047)
-2025-08-13T19:15:27.068+08:00  INFO 4004 --- [demo] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-13T19:15:27.068+08:00  INFO 4004 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-08-13T19:15:27.072+08:00  INFO 4004 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2025-08-13T19:15:28.659+08:00  INFO 4004 --- [demo] [http-nio-8080-exec-2] com.maybank.demo.filter.LoggingFilter    : Incoming Request: GET /api/weather/temperature Body: {
-  "latitude": 52.52,
-  "longitude": 13.41
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-14T20:37:26.427+08:00 ERROR 21816 --- [demo] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
 
-}
-2025-08-13T19:15:28.659+08:00  INFO 4004 --- [demo] [http-nio-8080-exec-2] com.maybank.demo.filter.LoggingFilter    : Outgoing Response: Status: 200 Body: {"hourly":{"time":["2025-08-13T00:00","2025-08-13T01:00","2025-08-13T02:00","2025-08-13T03:00","2025-08-13T04:00","2025-08-13T05:00","2025-08-13T06:00","2025-08-13T07:00","2025-08-13T08:00","2025-08-13T09:00","2025-08-13T10:00","2025-08-13T11:00","2025-08-13T12:00","2025-08-13T13:00","2025-08-13T14:00","2025-08-13T15:00","2025-08-13T16:00","2025-08-13T17:00","2025-08-13T18:00","2025-08-13T19:00","2025-08-13T20:00","2025-08-13T21:00","2025-08-13T22:00","2025-08-13T23:00","2025-08-14T00:00","2025-08-14T01:00","2025-08-14T02:00","2025-08-14T03:00","2025-08-14T04:00","2025-08-14T05:00","2025-08-14T06:00","2025-08-14T07:00","2025-08-14T08:00","2025-08-14T09:00","2025-08-14T10:00","2025-08-14T11:00","2025-08-14T12:00","2025-08-14T13:00","2025-08-14T14:00","2025-08-14T15:00","2025-08-14T16:00","2025-08-14T17:00","2025-08-14T18:00","2025-08-14T19:00","2025-08-14T20:00","2025-08-14T21:00","2025-08-14T22:00","2025-08-14T23:00","2025-08-15T00:00","2025-08-15T01:00","2025-08-15T02:00","2025-08-15T03:00","2025-08-15T04:00","2025-08-15T05:00","2025-08-15T06:00","2025-08-15T07:00","2025-08-15T08:00","2025-08-15T09:00","2025-08-15T10:00","2025-08-15T11:00","2025-08-15T12:00","2025-08-15T13:00","2025-08-15T14:00","2025-08-15T15:00","2025-08-15T16:00","2025-08-15T17:00","2025-08-15T18:00","2025-08-15T19:00","2025-08-15T20:00","2025-08-15T21:00","2025-08-15T22:00","2025-08-15T23:00","2025-08-16T00:00","2025-08-16T01:00","2025-08-16T02:00","2025-08-16T03:00","2025-08-16T04:00","2025-08-16T05:00","2025-08-16T06:00","2025-08-16T07:00","2025-08-16T08:00","2025-08-16T09:00","2025-08-16T10:00","2025-08-16T11:00","2025-08-16T12:00","2025-08-16T13:00","2025-08-16T14:00","2025-08-16T15:00","2025-08-16T16:00","2025-08-16T17:00","2025-08-16T18:00","2025-08-16T19:00","2025-08-16T20:00","2025-08-16T21:00","2025-08-16T22:00","2025-08-16T23:00","2025-08-17T00:00","2025-08-17T01:00","2025-08-17T02:00","2025-08-17T03:00","2025-08-17T04:00","2025-08-17T05:00","2025-08-17T06:00","2025-08-17T07:00","2025-08-17T08:00","2025-08-17T09:00","2025-08-17T10:00","2025-08-17T11:00","2025-08-17T12:00","2025-08-17T13:00","2025-08-17T14:00","2025-08-17T15:00","2025-08-17T16:00","2025-08-17T17:00","2025-08-17T18:00","2025-08-17T19:00","2025-08-17T20:00","2025-08-17T21:00","2025-08-17T22:00","2025-08-17T23:00","2025-08-18T00:00","2025-08-18T01:00","2025-08-18T02:00","2025-08-18T03:00","2025-08-18T04:00","2025-08-18T05:00","2025-08-18T06:00","2025-08-18T07:00","2025-08-18T08:00","2025-08-18T09:00","2025-08-18T10:00","2025-08-18T11:00","2025-08-18T12:00","2025-08-18T13:00","2025-08-18T14:00","2025-08-18T15:00","2025-08-18T16:00","2025-08-18T17:00","2025-08-18T18:00","2025-08-18T19:00","2025-08-18T20:00","2025-08-18T21:00","2025-08-18T22:00","2025-08-18T23:00","2025-08-19T00:00","2025-08-19T01:00","2025-08-19T02:00","2025-08-19T03:00","2025-08-19T04:00","2025-08-19T05:00","2025-08-19T06:00","2025-08-19T07:00","2025-08-19T08:00","2025-08-19T09:00","2025-08-19T10:00","2025-08-19T11:00","2025-08-19T12:00","2025-08-19T13:00","2025-08-19T14:00","2025-08-19T15:00","2025-08-19T16:00","2025-08-19T17:00","2025-08-19T18:00","2025-08-19T19:00","2025-08-19T20:00","2025-08-19T21:00","2025-08-19T22:00","2025-08-19T23:00"],"temperature_2m":[20.4,19.7,19.2,18.6,18.2,18.1,18.7,19.9,21.3,23.7,26.2,28.0,30.1,31.6,32.0,31.9,31.4,30.8,29.4,27.5,25.7,24.3,23.2,22.3,21.6,21.1,20.5,20.0,19.5,19.6,20.5,22.4,24.4,26.6,28.7,30.4,31.6,32.6,33.0,33.4,33.4,32.6,31.7,30.2,28.9,27.6,26.6,26.0,25.4,24.8,23.9,23.0,22.5,22.4,23.6,25.7,27.2,28.8,32.5,33.6,33.7,34.0,33.6,32.9,32.2,30.9,28.6,26.2,24.6,23.6,22.5,21.1,19.9,18.7,17.7,17.3,17.4,17.3,17.7,18.1,19.0,20.0,20.9,22.1,23.2,23.6,23.8,23.6,23.2,22.6,21.8,20.8,19.6,18.4,17.2,16.0,14.9,13.9,13.1,12.7,12.8,13.3,14.1,15.5,17.3,18.8,19.9,20.7,21.3,21.7,22.0,22.1,22.1,21.8,21.2,19.9,18.3,17.0,16.2,15.6,15.1,14.4,13.7,13.3,13.6,14.3,14.8,15.6,18.2,20.4,22.1,23.4,24.3,24.8,25.0,24.9,24.5,23.9,23.0,21.7,20.3,19.0,18.1,17.4,16.8,16.1,15.5,15.2,15.2,15.5,16.4,18.3,20.8,22.9,24.2,25.2,25.9,26.4,26.6,26.5,26.1,25.3,24.3,22.9,21.1,19.7,18.9,18.5]}}
-2025-08-13T19:23:50.740+08:00  INFO 4004 --- [demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-13T19:23:50.866+08:00  INFO 4004 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-08-13T19:23:50.882+08:00  INFO 4004 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-08-13T19:23:50.914+08:00  INFO 4004 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-08-13T19:23:50.928+08:00  INFO 4004 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-08-13T19:23:56.468+08:00  INFO 5468 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : Starting SpringBootApplication using Java 17.0.9 with PID 5468 (C:\Users\doubl\OneDrive\maybank interview assessment\target\classes started by doubl in C:\Users\doubl\OneDrive\maybank interview assessment)
-2025-08-13T19:23:56.474+08:00  INFO 5468 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : No active profile set, falling back to 1 default profile: "default"
-2025-08-13T19:23:56.636+08:00  INFO 5468 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-08-13T19:23:56.636+08:00  INFO 5468 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-08-13T19:23:58.340+08:00  INFO 5468 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-08-13T19:23:58.466+08:00  INFO 5468 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 2 JPA repository interfaces.
-2025-08-13T19:24:00.237+08:00  INFO 5468 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-08-13T19:24:00.253+08:00  INFO 5468 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-08-13T19:24:00.253+08:00  INFO 5468 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-13T19:24:00.309+08:00  INFO 5468 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-08-13T19:24:00.315+08:00  INFO 5468 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3679 ms
-2025-08-13T19:24:00.661+08:00  INFO 5468 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-08-13T19:24:00.756+08:00  INFO 5468 --- [demo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
-2025-08-13T19:24:00.822+08:00  INFO 5468 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-08-13T19:24:01.427+08:00  INFO 5468 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-08-13T19:24:01.495+08:00  INFO 5468 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-08-13T19:24:01.926+08:00  INFO 5468 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32b19ab6
-2025-08-13T19:24:01.926+08:00  INFO 5468 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-08-13T19:24:02.035+08:00  WARN 5468 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-08-13T19:24:02.035+08:00  WARN 5468 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2025-08-13T19:24:02.067+08:00  INFO 5468 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-08-13T19:24:03.353+08:00  INFO 5468 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-08-13T19:24:03.407+08:00  INFO 5468 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-08-13T19:24:03.996+08:00  WARN 5468 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-08-13T19:24:04.604+08:00  INFO 5468 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-08-13T19:24:04.669+08:00  INFO 5468 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-08-13T19:24:04.687+08:00  INFO 5468 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : Started SpringBootApplication in 9.231 seconds (process running for 9.847)
-2025-08-13T19:24:13.341+08:00  INFO 5468 --- [demo] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-13T19:24:13.341+08:00  INFO 5468 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-08-13T19:24:13.343+08:00  INFO 5468 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-08-13T19:24:14.983+08:00  INFO 5468 --- [demo] [http-nio-8080-exec-2] com.maybank.demo.filter.LoggingFilter    : Incoming Request: GET /api/weather/temperature Body: {
-  "latitude": 52.52,
-  "longitude": 13.41
+***************************
+APPLICATION FAILED TO START
+***************************
 
-}
-2025-08-13T19:24:14.983+08:00  INFO 5468 --- [demo] [http-nio-8080-exec-2] com.maybank.demo.filter.LoggingFilter    : Outgoing Response: Status: 200 Body: {"hourly":{"2025-08-13T00:00":20.4,"2025-08-13T01:00":19.7,"2025-08-13T02:00":19.2,"2025-08-13T03:00":18.6,"2025-08-13T04:00":18.2,"2025-08-13T05:00":18.1,"2025-08-13T06:00":18.7,"2025-08-13T07:00":19.9,"2025-08-13T08:00":21.3,"2025-08-13T09:00":23.7,"2025-08-13T10:00":26.2,"2025-08-13T11:00":28.0,"2025-08-13T12:00":30.1,"2025-08-13T13:00":31.6,"2025-08-13T14:00":32.0,"2025-08-13T15:00":31.9,"2025-08-13T16:00":31.4,"2025-08-13T17:00":30.8,"2025-08-13T18:00":29.4,"2025-08-13T19:00":27.5,"2025-08-13T20:00":25.7,"2025-08-13T21:00":24.3,"2025-08-13T22:00":23.2,"2025-08-13T23:00":22.3,"2025-08-14T00:00":21.6,"2025-08-14T01:00":21.1,"2025-08-14T02:00":20.5,"2025-08-14T03:00":20.0,"2025-08-14T04:00":19.5,"2025-08-14T05:00":19.6,"2025-08-14T06:00":20.5,"2025-08-14T07:00":22.4,"2025-08-14T08:00":24.4,"2025-08-14T09:00":26.6,"2025-08-14T10:00":28.7,"2025-08-14T11:00":30.4,"2025-08-14T12:00":31.6,"2025-08-14T13:00":32.6,"2025-08-14T14:00":33.0,"2025-08-14T15:00":33.4,"2025-08-14T16:00":33.4,"2025-08-14T17:00":32.6,"2025-08-14T18:00":31.7,"2025-08-14T19:00":30.2,"2025-08-14T20:00":28.9,"2025-08-14T21:00":27.6,"2025-08-14T22:00":26.6,"2025-08-14T23:00":26.0,"2025-08-15T00:00":25.4,"2025-08-15T01:00":24.8,"2025-08-15T02:00":23.9,"2025-08-15T03:00":23.0,"2025-08-15T04:00":22.5,"2025-08-15T05:00":22.4,"2025-08-15T06:00":23.6,"2025-08-15T07:00":25.7,"2025-08-15T08:00":27.2,"2025-08-15T09:00":28.8,"2025-08-15T10:00":32.5,"2025-08-15T11:00":33.6,"2025-08-15T12:00":33.7,"2025-08-15T13:00":34.0,"2025-08-15T14:00":33.6,"2025-08-15T15:00":32.9,"2025-08-15T16:00":32.2,"2025-08-15T17:00":30.9,"2025-08-15T18:00":28.6,"2025-08-15T19:00":26.2,"2025-08-15T20:00":24.6,"2025-08-15T21:00":23.6,"2025-08-15T22:00":22.5,"2025-08-15T23:00":21.1,"2025-08-16T00:00":19.9,"2025-08-16T01:00":18.7,"2025-08-16T02:00":17.7,"2025-08-16T03:00":17.3,"2025-08-16T04:00":17.4,"2025-08-16T05:00":17.3,"2025-08-16T06:00":17.7,"2025-08-16T07:00":18.1,"2025-08-16T08:00":19.0,"2025-08-16T09:00":20.0,"2025-08-16T10:00":20.9,"2025-08-16T11:00":22.1,"2025-08-16T12:00":23.2,"2025-08-16T13:00":23.6,"2025-08-16T14:00":23.8,"2025-08-16T15:00":23.6,"2025-08-16T16:00":23.2,"2025-08-16T17:00":22.6,"2025-08-16T18:00":21.8,"2025-08-16T19:00":20.8,"2025-08-16T20:00":19.6,"2025-08-16T21:00":18.4,"2025-08-16T22:00":17.2,"2025-08-16T23:00":16.0,"2025-08-17T00:00":14.9,"2025-08-17T01:00":13.9,"2025-08-17T02:00":13.1,"2025-08-17T03:00":12.7,"2025-08-17T04:00":12.8,"2025-08-17T05:00":13.3,"2025-08-17T06:00":14.1,"2025-08-17T07:00":15.5,"2025-08-17T08:00":17.3,"2025-08-17T09:00":18.8,"2025-08-17T10:00":19.9,"2025-08-17T11:00":20.7,"2025-08-17T12:00":21.3,"2025-08-17T13:00":21.7,"2025-08-17T14:00":22.0,"2025-08-17T15:00":22.1,"2025-08-17T16:00":22.1,"2025-08-17T17:00":21.8,"2025-08-17T18:00":21.2,"2025-08-17T19:00":19.9,"2025-08-17T20:00":18.3,"2025-08-17T21:00":17.0,"2025-08-17T22:00":16.2,"2025-08-17T23:00":15.6,"2025-08-18T00:00":15.1,"2025-08-18T01:00":14.4,"2025-08-18T02:00":13.7,"2025-08-18T03:00":13.3,"2025-08-18T04:00":13.6,"2025-08-18T05:00":14.3,"2025-08-18T06:00":14.8,"2025-08-18T07:00":15.6,"2025-08-18T08:00":18.2,"2025-08-18T09:00":20.4,"2025-08-18T10:00":22.1,"2025-08-18T11:00":23.4,"2025-08-18T12:00":24.3,"2025-08-18T13:00":24.8,"2025-08-18T14:00":25.0,"2025-08-18T15:00":24.9,"2025-08-18T16:00":24.5,"2025-08-18T17:00":23.9,"2025-08-18T18:00":23.0,"2025-08-18T19:00":21.7,"2025-08-18T20:00":20.3,"2025-08-18T21:00":19.0,"2025-08-18T22:00":18.1,"2025-08-18T23:00":17.4,"2025-08-19T00:00":16.8,"2025-08-19T01:00":16.1,"2025-08-19T02:00":15.5,"2025-08-19T03:00":15.2,"2025-08-19T04:00":15.2,"2025-08-19T05:00":15.5,"2025-08-19T06:00":16.4,"2025-08-19T07:00":18.3,"2025-08-19T08:00":20.8,"2025-08-19T09:00":22.9,"2025-08-19T10:00":24.2,"2025-08-19T11:00":25.2,"2025-08-19T12:00":25.9,"2025-08-19T13:00":26.4,"2025-08-19T14:00":26.6,"2025-08-19T15:00":26.5,"2025-08-19T16:00":26.1,"2025-08-19T17:00":25.3,"2025-08-19T18:00":24.3,"2025-08-19T19:00":22.9,"2025-08-19T20:00":21.1,"2025-08-19T21:00":19.7,"2025-08-19T22:00":18.9,"2025-08-19T23:00":18.5},"status":"success"}
-2025-08-13T19:42:08.283+08:00  INFO 5468 --- [demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-13T19:42:08.426+08:00  INFO 5468 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-08-13T19:42:08.426+08:00  INFO 5468 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-08-13T19:42:08.453+08:00  INFO 5468 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-08-13T19:42:08.463+08:00  INFO 5468 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-08-13T19:42:15.313+08:00  INFO 2888 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : Starting SpringBootApplication using Java 17.0.9 with PID 2888 (C:\Users\doubl\OneDrive\maybank interview assessment\target\classes started by doubl in C:\Users\doubl\OneDrive\maybank interview assessment)
-2025-08-13T19:42:15.322+08:00  INFO 2888 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : No active profile set, falling back to 1 default profile: "default"
-2025-08-13T19:42:15.547+08:00  INFO 2888 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-08-13T19:42:15.547+08:00  INFO 2888 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-08-13T19:42:17.398+08:00  INFO 2888 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-08-13T19:42:17.596+08:00  INFO 2888 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 161 ms. Found 2 JPA repository interfaces.
-2025-08-13T19:42:20.313+08:00  INFO 2888 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-08-13T19:42:20.353+08:00  INFO 2888 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-08-13T19:42:20.353+08:00  INFO 2888 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-13T19:42:20.462+08:00  INFO 2888 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-08-13T19:42:20.462+08:00  INFO 2888 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4912 ms
-2025-08-13T19:42:20.975+08:00  INFO 2888 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-08-13T19:42:21.173+08:00  INFO 2888 --- [demo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
-2025-08-13T19:42:21.308+08:00  INFO 2888 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-08-13T19:42:22.105+08:00  INFO 2888 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-08-13T19:42:22.191+08:00  INFO 2888 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-08-13T19:42:23.197+08:00  INFO 2888 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2262fb6d
-2025-08-13T19:42:23.209+08:00  INFO 2888 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-08-13T19:42:23.363+08:00  WARN 2888 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-08-13T19:42:23.370+08:00  WARN 2888 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2025-08-13T19:42:23.450+08:00  INFO 2888 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌──->──┐
+|  loggingAspect defined in class path resource [com/maybank/demo/configuration/ApplicationConfiguration.class]
+└──<-──┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2025-08-14T20:40:29.291+08:00  INFO 13564 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : Starting SpringBootApplication using Java 17.0.9 with PID 13564 (C:\Users\doubl\OneDrive\maybank interview assessment\target\classes started by doubl in C:\Users\doubl\OneDrive\maybank interview assessment)
+2025-08-14T20:40:29.298+08:00  INFO 13564 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-14T20:40:29.477+08:00  INFO 13564 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-14T20:40:29.477+08:00  INFO 13564 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-14T20:40:30.589+08:00  INFO 13564 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-14T20:40:30.676+08:00  INFO 13564 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.
+2025-08-14T20:40:32.652+08:00  INFO 13564 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-14T20:40:32.688+08:00  INFO 13564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-14T20:40:32.689+08:00  INFO 13564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-14T20:40:32.755+08:00  INFO 13564 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-14T20:40:32.756+08:00  INFO 13564 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3278 ms
+2025-08-14T20:40:33.302+08:00  INFO 13564 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-14T20:40:33.524+08:00  INFO 13564 --- [demo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-14T20:40:33.635+08:00  INFO 13564 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-14T20:40:34.373+08:00  INFO 13564 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-14T20:40:34.442+08:00  INFO 13564 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-14T20:40:34.981+08:00  INFO 13564 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b8dcd38
+2025-08-14T20:40:34.983+08:00  INFO 13564 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-14T20:40:35.073+08:00  WARN 13564 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-14T20:40:35.073+08:00  WARN 13564 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-08-14T20:40:35.090+08:00  INFO 13564 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0
@@ -171,20 +83,321 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-08-13T19:42:26.188+08:00  INFO 2888 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-08-13T19:42:26.342+08:00  INFO 2888 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-08-13T19:42:27.372+08:00  WARN 2888 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-08-13T19:42:28.581+08:00  INFO 2888 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-08-13T19:42:28.733+08:00  INFO 2888 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-08-13T19:42:28.775+08:00  INFO 2888 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : Started SpringBootApplication in 15.157 seconds (process running for 15.793)
-2025-08-13T19:42:56.786+08:00  INFO 2888 --- [demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-13T19:42:56.795+08:00  INFO 2888 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-08-13T19:42:56.795+08:00  INFO 2888 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2025-08-13T19:42:57.561+08:00  WARN 2888 --- [demo] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException: Account not found]
-2025-08-13T19:42:57.568+08:00  INFO 2888 --- [demo] [http-nio-8080-exec-1] com.maybank.demo.filter.LoggingFilter    : Incoming Request: GET /api/accounts/3 Body: 
-2025-08-13T19:42:57.568+08:00  INFO 2888 --- [demo] [http-nio-8080-exec-1] com.maybank.demo.filter.LoggingFilter    : Outgoing Response: Status: 500 Body: {"error":"Internal server error: Account not found"}
-2025-08-13T19:44:04.012+08:00  INFO 2888 --- [demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-13T19:44:04.475+08:00  INFO 2888 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-08-13T19:44:04.492+08:00  INFO 2888 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-08-13T19:44:04.500+08:00  INFO 2888 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-08-13T19:44:04.523+08:00  INFO 2888 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-14T20:40:36.418+08:00  INFO 13564 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-14T20:40:36.544+08:00  INFO 13564 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14T20:40:37.541+08:00  WARN 13564 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-14T20:40:38.893+08:00  INFO 13564 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-14T20:40:38.989+08:00  INFO 13564 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-14T20:40:39.010+08:00  INFO 13564 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : Started SpringBootApplication in 10.77 seconds (process running for 11.612)
+2025-08-14T20:43:26.437+08:00  INFO 13564 --- [demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-14T20:43:26.440+08:00  INFO 13564 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-14T20:43:26.442+08:00  INFO 13564 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-08-14T20:43:26.598+08:00  INFO 13564 --- [demo] [http-nio-8080-exec-1] c.m.demo.aspect.LoggingMethodAspect      : ------- getAccountDetailsstarted 
+2025-08-14T20:43:26.599+08:00  INFO 13564 --- [demo] [http-nio-8080-exec-1] c.m.demo.aspect.LoggingMethodAspect      : ------- Parameters :[1]
+2025-08-14T20:43:26.600+08:00  INFO 13564 --- [demo] [http-nio-8080-exec-1] c.m.demo.aspect.LoggingMethodAspect      : ------- findAccountByIdstarted 
+2025-08-14T20:43:26.600+08:00  INFO 13564 --- [demo] [http-nio-8080-exec-1] c.m.demo.aspect.LoggingMethodAspect      : ------- Parameters :[1]
+2025-08-14T20:43:26.763+08:00  INFO 13564 --- [demo] [http-nio-8080-exec-1] c.m.demo.aspect.LoggingMethodAspect      : ------- findAccountByIdcompleted 
+2025-08-14T20:43:26.805+08:00  WARN 13564 --- [demo] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException: Cannot invoke "java.util.Optional.orElseThrow(java.util.function.Supplier)" because the return value of "com.maybank.demo.service.AccountService.findAccountById(java.lang.Long)" is null]
+2025-08-14T20:43:26.807+08:00  INFO 13564 --- [demo] [http-nio-8080-exec-1] com.maybank.demo.filter.LoggingFilter    : Incoming Request: GET /api/accounts/1 Body: 
+2025-08-14T20:43:26.807+08:00  INFO 13564 --- [demo] [http-nio-8080-exec-1] com.maybank.demo.filter.LoggingFilter    : Outgoing Response: Status: 500 Body: {"error":"Internal server error: Cannot invoke \"java.util.Optional.orElseThrow(java.util.function.Supplier)\" because the return value of \"com.maybank.demo.service.AccountService.findAccountById(java.lang.Long)\" is null"}
+2025-08-14T20:45:21.998+08:00  INFO 13564 --- [demo] [http-nio-8080-exec-4] c.m.demo.aspect.LoggingMethodAspect      : ------- getAccountsstarted 
+2025-08-14T20:45:21.999+08:00  INFO 13564 --- [demo] [http-nio-8080-exec-4] c.m.demo.aspect.LoggingMethodAspect      : ------- Parameters :[0, 10]
+2025-08-14T20:45:21.999+08:00  INFO 13564 --- [demo] [http-nio-8080-exec-4] c.m.demo.aspect.LoggingMethodAspect      : ------- findAccountsstarted 
+2025-08-14T20:45:21.999+08:00  INFO 13564 --- [demo] [http-nio-8080-exec-4] c.m.demo.aspect.LoggingMethodAspect      : ------- Parameters :[0, 10]
+2025-08-14T20:45:21.999+08:00  INFO 13564 --- [demo] [http-nio-8080-exec-4] c.maybank.demo.service.AccountService    : ------------Start AccountService -> findAccounts()------------
+2025-08-14T20:45:22.000+08:00  INFO 13564 --- [demo] [http-nio-8080-exec-4] c.maybank.demo.service.AccountService    : Page Number: 0 PageSize: 10
+2025-08-14T20:45:22.151+08:00  INFO 13564 --- [demo] [http-nio-8080-exec-4] c.maybank.demo.service.AccountService    : ------------End AccountService -> findAccounts()------------
+2025-08-14T20:45:22.152+08:00  INFO 13564 --- [demo] [http-nio-8080-exec-4] c.m.demo.aspect.LoggingMethodAspect      : ------- findAccountscompleted 
+2025-08-14T20:45:22.154+08:00  WARN 13564 --- [demo] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException: Cannot invoke "org.springframework.data.domain.Page.getContent()" because "accountList" is null]
+2025-08-14T20:45:22.154+08:00  INFO 13564 --- [demo] [http-nio-8080-exec-4] com.maybank.demo.filter.LoggingFilter    : Incoming Request: GET /api/accounts Body: 
+2025-08-14T20:45:22.154+08:00  INFO 13564 --- [demo] [http-nio-8080-exec-4] com.maybank.demo.filter.LoggingFilter    : Outgoing Response: Status: 500 Body: {"error":"Internal server error: Cannot invoke \"org.springframework.data.domain.Page.getContent()\" because \"accountList\" is null"}
+2025-08-14T20:45:45.125+08:00  INFO 13564 --- [demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-14T20:45:45.244+08:00  INFO 13564 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-14T20:45:45.244+08:00  INFO 13564 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14T20:45:45.259+08:00  INFO 13564 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-14T20:45:45.275+08:00  INFO 13564 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-14T20:45:50.488+08:00  INFO 9560 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : Starting SpringBootApplication using Java 17.0.9 with PID 9560 (C:\Users\doubl\OneDrive\maybank interview assessment\target\classes started by doubl in C:\Users\doubl\OneDrive\maybank interview assessment)
+2025-08-14T20:45:50.491+08:00  INFO 9560 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-14T20:45:50.650+08:00  INFO 9560 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-14T20:45:50.650+08:00  INFO 9560 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-14T20:45:51.647+08:00  INFO 9560 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-14T20:45:51.756+08:00  INFO 9560 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85 ms. Found 2 JPA repository interfaces.
+2025-08-14T20:45:53.714+08:00  INFO 9560 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-14T20:45:53.768+08:00  INFO 9560 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-14T20:45:53.768+08:00  INFO 9560 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-14T20:45:53.863+08:00  INFO 9560 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-14T20:45:53.863+08:00  INFO 9560 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3213 ms
+2025-08-14T20:45:54.451+08:00  INFO 9560 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-14T20:45:54.594+08:00  INFO 9560 --- [demo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-14T20:45:54.705+08:00  INFO 9560 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-14T20:45:55.200+08:00  INFO 9560 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-14T20:45:55.260+08:00  INFO 9560 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-14T20:45:55.718+08:00  INFO 9560 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21484de1
+2025-08-14T20:45:55.718+08:00  INFO 9560 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-14T20:45:55.782+08:00  WARN 9560 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-14T20:45:55.782+08:00  WARN 9560 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-08-14T20:45:55.814+08:00  INFO 9560 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-14T20:45:56.890+08:00  INFO 9560 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-14T20:45:56.938+08:00  INFO 9560 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14T20:45:57.680+08:00  WARN 9560 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-14T20:45:58.582+08:00  INFO 9560 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-14T20:45:58.645+08:00  INFO 9560 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-14T20:45:58.661+08:00  INFO 9560 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : Started SpringBootApplication in 9.18 seconds (process running for 9.894)
+2025-08-14T20:46:15.406+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-14T20:46:15.406+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-14T20:46:15.408+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-14T20:46:15.561+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-2] c.m.demo.aspect.LoggingMethodAspect      : ------- getAccounts started 
+2025-08-14T20:46:15.563+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-2] c.m.demo.aspect.LoggingMethodAspect      : ------- Parameters :[0, 10]
+2025-08-14T20:46:15.563+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-2] c.m.demo.aspect.LoggingMethodAspect      : ------- findAccounts started 
+2025-08-14T20:46:15.563+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-2] c.m.demo.aspect.LoggingMethodAspect      : ------- Parameters :[0, 10]
+2025-08-14T20:46:15.563+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-2] c.maybank.demo.service.AccountService    : ------------Start AccountService -> findAccounts()------------
+2025-08-14T20:46:15.564+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-2] c.maybank.demo.service.AccountService    : Page Number: 0 PageSize: 10
+2025-08-14T20:46:15.777+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-2] c.maybank.demo.service.AccountService    : ------------End AccountService -> findAccounts()------------
+2025-08-14T20:46:15.777+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-2] c.m.demo.aspect.LoggingMethodAspect      : ------- findAccounts completed 
+2025-08-14T20:46:15.842+08:00  WARN 9560 --- [demo] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException: Cannot invoke "org.springframework.data.domain.Page.getContent()" because "accountList" is null]
+2025-08-14T20:46:15.844+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-2] com.maybank.demo.filter.LoggingFilter    : Incoming Request: GET /api/accounts Body: 
+2025-08-14T20:46:15.844+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-2] com.maybank.demo.filter.LoggingFilter    : Outgoing Response: Status: 500 Body: {"error":"Internal server error: Cannot invoke \"org.springframework.data.domain.Page.getContent()\" because \"accountList\" is null"}
+2025-08-14T20:46:20.144+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-4] c.m.demo.aspect.LoggingMethodAspect      : ------- getAccountDetails started 
+2025-08-14T20:46:20.144+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-4] c.m.demo.aspect.LoggingMethodAspect      : ------- Parameters :[1]
+2025-08-14T20:46:20.145+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-4] c.m.demo.aspect.LoggingMethodAspect      : ------- findAccountById started 
+2025-08-14T20:46:20.145+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-4] c.m.demo.aspect.LoggingMethodAspect      : ------- Parameters :[1]
+2025-08-14T20:46:20.159+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-4] c.m.demo.aspect.LoggingMethodAspect      : ------- findAccountById completed 
+2025-08-14T20:46:20.161+08:00  WARN 9560 --- [demo] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException: Cannot invoke "java.util.Optional.orElseThrow(java.util.function.Supplier)" because the return value of "com.maybank.demo.service.AccountService.findAccountById(java.lang.Long)" is null]
+2025-08-14T20:46:20.161+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-4] com.maybank.demo.filter.LoggingFilter    : Incoming Request: GET /api/accounts/1 Body: 
+2025-08-14T20:46:20.162+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-4] com.maybank.demo.filter.LoggingFilter    : Outgoing Response: Status: 500 Body: {"error":"Internal server error: Cannot invoke \"java.util.Optional.orElseThrow(java.util.function.Supplier)\" because the return value of \"com.maybank.demo.service.AccountService.findAccountById(java.lang.Long)\" is null"}
+2025-08-14T20:46:21.209+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-6] c.m.demo.aspect.LoggingMethodAspect      : ------- getAccountDetails started 
+2025-08-14T20:46:21.209+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-6] c.m.demo.aspect.LoggingMethodAspect      : ------- Parameters :[1]
+2025-08-14T20:46:21.209+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-6] c.m.demo.aspect.LoggingMethodAspect      : ------- findAccountById started 
+2025-08-14T20:46:21.209+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-6] c.m.demo.aspect.LoggingMethodAspect      : ------- Parameters :[1]
+2025-08-14T20:46:21.217+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-6] c.m.demo.aspect.LoggingMethodAspect      : ------- findAccountById completed 
+2025-08-14T20:46:21.219+08:00  WARN 9560 --- [demo] [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException: Cannot invoke "java.util.Optional.orElseThrow(java.util.function.Supplier)" because the return value of "com.maybank.demo.service.AccountService.findAccountById(java.lang.Long)" is null]
+2025-08-14T20:46:21.220+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-6] com.maybank.demo.filter.LoggingFilter    : Incoming Request: GET /api/accounts/1 Body: 
+2025-08-14T20:46:21.221+08:00  INFO 9560 --- [demo] [http-nio-8080-exec-6] com.maybank.demo.filter.LoggingFilter    : Outgoing Response: Status: 500 Body: {"error":"Internal server error: Cannot invoke \"java.util.Optional.orElseThrow(java.util.function.Supplier)\" because the return value of \"com.maybank.demo.service.AccountService.findAccountById(java.lang.Long)\" is null"}
+2025-08-14T20:47:27.863+08:00  INFO 9560 --- [demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-14T20:47:27.991+08:00  INFO 9560 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-14T20:47:27.991+08:00  INFO 9560 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14T20:47:28.003+08:00  INFO 9560 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-14T20:47:28.006+08:00  INFO 9560 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-14T20:47:32.519+08:00  INFO 14720 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : Starting SpringBootApplication using Java 17.0.9 with PID 14720 (C:\Users\doubl\OneDrive\maybank interview assessment\target\classes started by doubl in C:\Users\doubl\OneDrive\maybank interview assessment)
+2025-08-14T20:47:32.519+08:00  INFO 14720 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-14T20:47:32.654+08:00  INFO 14720 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-14T20:47:32.654+08:00  INFO 14720 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-14T20:47:33.669+08:00  INFO 14720 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-14T20:47:33.753+08:00  INFO 14720 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.
+2025-08-14T20:47:35.514+08:00  INFO 14720 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-14T20:47:35.542+08:00  INFO 14720 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-14T20:47:35.542+08:00  INFO 14720 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-14T20:47:35.622+08:00  INFO 14720 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-14T20:47:35.622+08:00  INFO 14720 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2968 ms
+2025-08-14T20:47:36.066+08:00  INFO 14720 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-14T20:47:36.225+08:00  INFO 14720 --- [demo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-14T20:47:36.297+08:00  INFO 14720 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-14T20:47:36.861+08:00  INFO 14720 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-14T20:47:36.909+08:00  INFO 14720 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-14T20:47:37.275+08:00  INFO 14720 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@295c54fe
+2025-08-14T20:47:37.275+08:00  INFO 14720 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-14T20:47:37.338+08:00  WARN 14720 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-14T20:47:37.338+08:00  WARN 14720 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-08-14T20:47:37.354+08:00  INFO 14720 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-14T20:47:38.456+08:00  INFO 14720 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-14T20:47:38.519+08:00  INFO 14720 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14T20:47:39.485+08:00  WARN 14720 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-14T20:47:40.626+08:00  INFO 14720 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-14T20:47:40.705+08:00  INFO 14720 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-14T20:47:40.721+08:00  INFO 14720 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : Started SpringBootApplication in 9.151 seconds (process running for 9.886)
+2025-08-14T20:47:45.438+08:00  INFO 14720 --- [demo] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-14T20:47:45.438+08:00  INFO 14720 --- [demo] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-14T20:47:45.438+08:00  INFO 14720 --- [demo] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-08-14T20:47:45.619+08:00  INFO 14720 --- [demo] [http-nio-8080-exec-3] c.m.demo.aspect.LoggingMethodAspect      : ------- getAccountDetails started 
+2025-08-14T20:47:45.623+08:00  INFO 14720 --- [demo] [http-nio-8080-exec-3] c.m.demo.aspect.LoggingMethodAspect      : ------- Parameters :[1]
+2025-08-14T20:47:45.623+08:00  INFO 14720 --- [demo] [http-nio-8080-exec-3] c.m.demo.aspect.LoggingMethodAspect      : ------- findAccountById started 
+2025-08-14T20:47:45.625+08:00  INFO 14720 --- [demo] [http-nio-8080-exec-3] c.m.demo.aspect.LoggingMethodAspect      : ------- Parameters :[1]
+2025-08-14T20:47:45.796+08:00  INFO 14720 --- [demo] [http-nio-8080-exec-3] c.m.demo.aspect.LoggingMethodAspect      : ------- findAccountById completed 
+2025-08-14T20:47:45.842+08:00  WARN 14720 --- [demo] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException: Cannot invoke "java.util.Optional.orElseThrow(java.util.function.Supplier)" because the return value of "com.maybank.demo.service.AccountService.findAccountById(java.lang.Long)" is null]
+2025-08-14T20:47:45.844+08:00  INFO 14720 --- [demo] [http-nio-8080-exec-3] com.maybank.demo.filter.LoggingFilter    : Incoming Request: GET /api/accounts/1 Body: 
+2025-08-14T20:47:45.844+08:00  INFO 14720 --- [demo] [http-nio-8080-exec-3] com.maybank.demo.filter.LoggingFilter    : Outgoing Response: Status: 500 Body: {"error":"Internal server error: Cannot invoke \"java.util.Optional.orElseThrow(java.util.function.Supplier)\" because the return value of \"com.maybank.demo.service.AccountService.findAccountById(java.lang.Long)\" is null"}
+2025-08-14T20:47:48.149+08:00  INFO 14720 --- [demo] [http-nio-8080-exec-4] c.m.demo.aspect.LoggingMethodAspect      : ------- getAccountDetails started 
+2025-08-14T20:47:48.150+08:00  INFO 14720 --- [demo] [http-nio-8080-exec-4] c.m.demo.aspect.LoggingMethodAspect      : ------- Parameters :[1]
+2025-08-14T20:47:48.150+08:00  INFO 14720 --- [demo] [http-nio-8080-exec-4] c.m.demo.aspect.LoggingMethodAspect      : ------- findAccountById started 
+2025-08-14T20:47:48.150+08:00  INFO 14720 --- [demo] [http-nio-8080-exec-4] c.m.demo.aspect.LoggingMethodAspect      : ------- Parameters :[1]
+2025-08-14T20:47:48.163+08:00  INFO 14720 --- [demo] [http-nio-8080-exec-4] c.m.demo.aspect.LoggingMethodAspect      : ------- findAccountById completed 
+2025-08-14T20:47:48.167+08:00  WARN 14720 --- [demo] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException: Cannot invoke "java.util.Optional.orElseThrow(java.util.function.Supplier)" because the return value of "com.maybank.demo.service.AccountService.findAccountById(java.lang.Long)" is null]
+2025-08-14T20:47:48.168+08:00  INFO 14720 --- [demo] [http-nio-8080-exec-4] com.maybank.demo.filter.LoggingFilter    : Incoming Request: GET /api/accounts/1 Body: 
+2025-08-14T20:47:48.169+08:00  INFO 14720 --- [demo] [http-nio-8080-exec-4] com.maybank.demo.filter.LoggingFilter    : Outgoing Response: Status: 500 Body: {"error":"Internal server error: Cannot invoke \"java.util.Optional.orElseThrow(java.util.function.Supplier)\" because the return value of \"com.maybank.demo.service.AccountService.findAccountById(java.lang.Long)\" is null"}
+2025-08-14T20:48:21.751+08:00  INFO 14720 --- [demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-14T20:48:21.867+08:00  INFO 14720 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-14T20:48:21.872+08:00  INFO 14720 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14T20:48:21.876+08:00  INFO 14720 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-14T20:48:21.884+08:00  INFO 14720 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-14T20:48:26.634+08:00  INFO 8588 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : Starting SpringBootApplication using Java 17.0.9 with PID 8588 (C:\Users\doubl\OneDrive\maybank interview assessment\target\classes started by doubl in C:\Users\doubl\OneDrive\maybank interview assessment)
+2025-08-14T20:48:26.634+08:00  INFO 8588 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-14T20:48:26.811+08:00  INFO 8588 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-14T20:48:26.811+08:00  INFO 8588 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-14T20:48:27.936+08:00  INFO 8588 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-14T20:48:28.015+08:00  INFO 8588 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 2 JPA repository interfaces.
+2025-08-14T20:48:29.689+08:00  INFO 8588 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-14T20:48:29.704+08:00  INFO 8588 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-14T20:48:29.704+08:00  INFO 8588 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-14T20:48:29.800+08:00  INFO 8588 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-14T20:48:29.800+08:00  INFO 8588 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2989 ms
+2025-08-14T20:48:30.228+08:00  INFO 8588 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-14T20:48:30.370+08:00  INFO 8588 --- [demo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-14T20:48:30.500+08:00  INFO 8588 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-14T20:48:31.055+08:00  INFO 8588 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-14T20:48:31.131+08:00  INFO 8588 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-14T20:48:31.588+08:00  INFO 8588 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@673839ff
+2025-08-14T20:48:31.588+08:00  INFO 8588 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-14T20:48:31.623+08:00  WARN 8588 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-14T20:48:31.623+08:00  WARN 8588 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-08-14T20:48:31.651+08:00  INFO 8588 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-14T20:48:32.765+08:00  INFO 8588 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-14T20:48:32.813+08:00  INFO 8588 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14T20:48:33.336+08:00  WARN 8588 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-14T20:48:34.158+08:00  INFO 8588 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-14T20:48:34.237+08:00  INFO 8588 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-14T20:48:34.253+08:00  INFO 8588 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : Started SpringBootApplication in 8.483 seconds (process running for 9.135)
+2025-08-14T20:48:39.592+08:00  INFO 8588 --- [demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-14T20:48:39.592+08:00  INFO 8588 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-14T20:48:39.594+08:00  INFO 8588 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-08-14T20:48:39.919+08:00  INFO 8588 --- [demo] [http-nio-8080-exec-1] com.maybank.demo.filter.LoggingFilter    : Incoming Request: GET /api/accounts/1 Body: 
+2025-08-14T20:48:39.919+08:00  INFO 8588 --- [demo] [http-nio-8080-exec-1] com.maybank.demo.filter.LoggingFilter    : Outgoing Response: Status: 200 Body: {"id":1,"name":"John Doe","email":"john.doe@example.com","balance":1150.5}
+2025-08-14T20:50:08.503+08:00  INFO 8588 --- [demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-14T20:50:08.604+08:00  INFO 8588 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-14T20:50:08.609+08:00  INFO 8588 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14T20:50:08.612+08:00  INFO 8588 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-14T20:50:08.621+08:00  INFO 8588 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-14T20:50:13.345+08:00  INFO 6776 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : Starting SpringBootApplication using Java 17.0.9 with PID 6776 (C:\Users\doubl\OneDrive\maybank interview assessment\target\classes started by doubl in C:\Users\doubl\OneDrive\maybank interview assessment)
+2025-08-14T20:50:13.349+08:00  INFO 6776 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-14T20:50:13.513+08:00  INFO 6776 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-14T20:50:13.514+08:00  INFO 6776 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-14T20:50:14.502+08:00  INFO 6776 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-14T20:50:14.578+08:00  INFO 6776 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 2 JPA repository interfaces.
+2025-08-14T20:50:16.340+08:00  INFO 6776 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-14T20:50:16.373+08:00  INFO 6776 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-14T20:50:16.373+08:00  INFO 6776 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-14T20:50:16.444+08:00  INFO 6776 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-14T20:50:16.446+08:00  INFO 6776 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2930 ms
+2025-08-14T20:50:16.917+08:00  INFO 6776 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-14T20:50:17.047+08:00  INFO 6776 --- [demo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-14T20:50:17.132+08:00  INFO 6776 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-14T20:50:17.810+08:00  INFO 6776 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-14T20:50:17.880+08:00  INFO 6776 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-14T20:50:18.361+08:00  INFO 6776 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50542c24
+2025-08-14T20:50:18.370+08:00  INFO 6776 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-14T20:50:18.435+08:00  WARN 6776 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-14T20:50:18.436+08:00  WARN 6776 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-08-14T20:50:18.475+08:00  INFO 6776 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-14T20:50:19.564+08:00  INFO 6776 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-14T20:50:19.616+08:00  INFO 6776 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14T20:50:20.484+08:00  WARN 6776 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-14T20:50:21.721+08:00  INFO 6776 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-14T20:50:21.804+08:00  INFO 6776 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-14T20:50:21.825+08:00  INFO 6776 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : Started SpringBootApplication in 9.453 seconds (process running for 10.146)
+2025-08-14T20:50:29.228+08:00  INFO 6776 --- [demo] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-14T20:50:29.228+08:00  INFO 6776 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-14T20:50:29.231+08:00  INFO 6776 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-08-14T20:50:29.445+08:00  INFO 6776 --- [demo] [http-nio-8080-exec-2] c.m.demo.aspect.LoggingMethodAspect      : ------- getAccountDetails started--------- 
+2025-08-14T20:50:29.447+08:00  INFO 6776 --- [demo] [http-nio-8080-exec-2] c.m.demo.aspect.LoggingMethodAspect      : ------- Parameters :[1]
+2025-08-14T20:50:29.448+08:00  INFO 6776 --- [demo] [http-nio-8080-exec-2] c.m.demo.aspect.LoggingMethodAspect      : ------- findAccountById started--------- 
+2025-08-14T20:50:29.448+08:00  INFO 6776 --- [demo] [http-nio-8080-exec-2] c.m.demo.aspect.LoggingMethodAspect      : ------- Parameters :[1]
+2025-08-14T20:50:29.597+08:00  INFO 6776 --- [demo] [http-nio-8080-exec-2] c.m.demo.aspect.LoggingMethodAspect      : ------- findAccountById completed------ 
+2025-08-14T20:50:29.601+08:00  INFO 6776 --- [demo] [http-nio-8080-exec-2] c.m.demo.aspect.LoggingMethodAspect      : ------- getAccountDetails completed------ 
+2025-08-14T20:50:29.652+08:00  INFO 6776 --- [demo] [http-nio-8080-exec-2] com.maybank.demo.filter.LoggingFilter    : Incoming Request: GET /api/accounts/1 Body: 
+2025-08-14T20:50:29.652+08:00  INFO 6776 --- [demo] [http-nio-8080-exec-2] com.maybank.demo.filter.LoggingFilter    : Outgoing Response: Status: 200 Body: {"id":1,"name":"John Doe","email":"john.doe@example.com","balance":1150.5}
+2025-08-14T20:50:34.268+08:00  INFO 6776 --- [demo] [http-nio-8080-exec-3] c.m.demo.aspect.LoggingMethodAspect      : ------- getAccounts started--------- 
+2025-08-14T20:50:34.268+08:00  INFO 6776 --- [demo] [http-nio-8080-exec-3] c.m.demo.aspect.LoggingMethodAspect      : ------- Parameters :[0, 10]
+2025-08-14T20:50:34.269+08:00  INFO 6776 --- [demo] [http-nio-8080-exec-3] c.m.demo.aspect.LoggingMethodAspect      : ------- findAccounts started--------- 
+2025-08-14T20:50:34.269+08:00  INFO 6776 --- [demo] [http-nio-8080-exec-3] c.m.demo.aspect.LoggingMethodAspect      : ------- Parameters :[0, 10]
+2025-08-14T20:50:34.270+08:00  INFO 6776 --- [demo] [http-nio-8080-exec-3] c.maybank.demo.service.AccountService    : ------------Start AccountService -> findAccounts()------------
+2025-08-14T20:50:34.271+08:00  INFO 6776 --- [demo] [http-nio-8080-exec-3] c.maybank.demo.service.AccountService    : Page Number: 0 PageSize: 10
+2025-08-14T20:50:34.577+08:00  INFO 6776 --- [demo] [http-nio-8080-exec-3] c.maybank.demo.service.AccountService    : ------------End AccountService -> findAccounts()------------
+2025-08-14T20:50:34.578+08:00  INFO 6776 --- [demo] [http-nio-8080-exec-3] c.m.demo.aspect.LoggingMethodAspect      : ------- findAccounts completed------ 
+2025-08-14T20:50:34.579+08:00  INFO 6776 --- [demo] [http-nio-8080-exec-3] c.m.demo.aspect.LoggingMethodAspect      : ------- getAccounts completed------ 
+2025-08-14T20:50:34.600+08:00  INFO 6776 --- [demo] [http-nio-8080-exec-3] com.maybank.demo.filter.LoggingFilter    : Incoming Request: GET /api/accounts Body: 
+2025-08-14T20:50:34.601+08:00  INFO 6776 --- [demo] [http-nio-8080-exec-3] com.maybank.demo.filter.LoggingFilter    : Outgoing Response: Status: 200 Body: [{"id":1,"name":"John Doe","email":"john.doe@example.com","balance":1150.5},{"id":2,"name":"Min Yue","email":"minyue@example.com","balance":950.5}]
+2025-08-14T20:51:34.890+08:00  INFO 6776 --- [demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-14T20:51:34.981+08:00  INFO 6776 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-14T20:51:34.997+08:00  INFO 6776 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14T20:51:34.997+08:00  INFO 6776 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-14T20:51:34.997+08:00  INFO 6776 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-14T20:51:39.878+08:00  INFO 17088 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : Starting SpringBootApplication using Java 17.0.9 with PID 17088 (C:\Users\doubl\OneDrive\maybank interview assessment\target\classes started by doubl in C:\Users\doubl\OneDrive\maybank interview assessment)
+2025-08-14T20:51:39.890+08:00  INFO 17088 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-14T20:51:40.055+08:00  INFO 17088 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-14T20:51:40.055+08:00  INFO 17088 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-14T20:51:41.009+08:00  INFO 17088 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-14T20:51:41.089+08:00  INFO 17088 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces.
+2025-08-14T20:51:42.878+08:00  INFO 17088 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-14T20:51:42.910+08:00  INFO 17088 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-14T20:51:42.910+08:00  INFO 17088 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-14T20:51:42.989+08:00  INFO 17088 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-14T20:51:42.989+08:00  INFO 17088 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2934 ms
+2025-08-14T20:51:43.448+08:00  INFO 17088 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-14T20:51:43.543+08:00  INFO 17088 --- [demo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-14T20:51:43.638+08:00  INFO 17088 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-14T20:51:44.089+08:00  INFO 17088 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-14T20:51:44.146+08:00  INFO 17088 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-14T20:51:44.612+08:00  INFO 17088 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21484de1
+2025-08-14T20:51:44.614+08:00  INFO 17088 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-14T20:51:44.688+08:00  WARN 17088 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-14T20:51:44.688+08:00  WARN 17088 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-08-14T20:51:44.699+08:00  INFO 17088 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-14T20:51:45.767+08:00  INFO 17088 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-14T20:51:45.815+08:00  INFO 17088 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14T20:51:46.589+08:00  WARN 17088 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-14T20:51:47.511+08:00  INFO 17088 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-14T20:51:47.574+08:00  INFO 17088 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-14T20:51:47.591+08:00  INFO 17088 --- [demo] [restartedMain] c.m.d.application.SpringBootApplication  : Started SpringBootApplication in 8.653 seconds (process running for 9.318)
+2025-08-14T20:51:51.611+08:00  INFO 17088 --- [demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-14T20:51:51.611+08:00  INFO 17088 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-14T20:51:51.611+08:00  INFO 17088 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-08-14T20:51:51.769+08:00  INFO 17088 --- [demo] [http-nio-8080-exec-1] c.m.demo.aspect.LoggingMethodAspect      : ------- getAccounts started--------- 
+2025-08-14T20:51:51.769+08:00  INFO 17088 --- [demo] [http-nio-8080-exec-1] c.m.demo.aspect.LoggingMethodAspect      : ------- Parameters :[0, 10]
+2025-08-14T20:51:51.769+08:00  INFO 17088 --- [demo] [http-nio-8080-exec-1] c.m.demo.aspect.LoggingMethodAspect      : ------- findAccounts started--------- 
+2025-08-14T20:51:51.769+08:00  INFO 17088 --- [demo] [http-nio-8080-exec-1] c.m.demo.aspect.LoggingMethodAspect      : ------- Parameters :[0, 10]
+2025-08-14T20:51:52.004+08:00  INFO 17088 --- [demo] [http-nio-8080-exec-1] c.m.demo.aspect.LoggingMethodAspect      : ------- findAccounts completed------ 
+2025-08-14T20:51:52.007+08:00  INFO 17088 --- [demo] [http-nio-8080-exec-1] c.m.demo.aspect.LoggingMethodAspect      : ------- getAccounts completed------ 
+2025-08-14T20:51:52.102+08:00  INFO 17088 --- [demo] [http-nio-8080-exec-1] com.maybank.demo.filter.LoggingFilter    : Incoming Request: GET /api/accounts Body: 
+2025-08-14T20:51:52.102+08:00  INFO 17088 --- [demo] [http-nio-8080-exec-1] com.maybank.demo.filter.LoggingFilter    : Outgoing Response: Status: 200 Body: [{"id":1,"name":"John Doe","email":"john.doe@example.com","balance":1150.5},{"id":2,"name":"Min Yue","email":"minyue@example.com","balance":950.5}]
+2025-08-14T20:51:55.739+08:00  INFO 17088 --- [demo] [http-nio-8080-exec-4] c.m.demo.aspect.LoggingMethodAspect      : ------- getAccountDetails started--------- 
+2025-08-14T20:51:55.740+08:00  INFO 17088 --- [demo] [http-nio-8080-exec-4] c.m.demo.aspect.LoggingMethodAspect      : ------- Parameters :[1]
+2025-08-14T20:51:55.741+08:00  INFO 17088 --- [demo] [http-nio-8080-exec-4] c.m.demo.aspect.LoggingMethodAspect      : ------- findAccountById started--------- 
+2025-08-14T20:51:55.742+08:00  INFO 17088 --- [demo] [http-nio-8080-exec-4] c.m.demo.aspect.LoggingMethodAspect      : ------- Parameters :[1]
+2025-08-14T20:51:55.769+08:00  INFO 17088 --- [demo] [http-nio-8080-exec-4] c.m.demo.aspect.LoggingMethodAspect      : ------- findAccountById completed------ 
+2025-08-14T20:51:55.771+08:00  INFO 17088 --- [demo] [http-nio-8080-exec-4] c.m.demo.aspect.LoggingMethodAspect      : ------- getAccountDetails completed------ 
+2025-08-14T20:51:55.778+08:00  INFO 17088 --- [demo] [http-nio-8080-exec-4] com.maybank.demo.filter.LoggingFilter    : Incoming Request: GET /api/accounts/1 Body: 
+2025-08-14T20:51:55.779+08:00  INFO 17088 --- [demo] [http-nio-8080-exec-4] com.maybank.demo.filter.LoggingFilter    : Outgoing Response: Status: 200 Body: {"id":1,"name":"John Doe","email":"john.doe@example.com","balance":1150.5}
